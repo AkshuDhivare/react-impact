@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*common css*/
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #fff!important;
+}
+
+
+@media screen and (max-width: 840px) {
+
+  	/*	navbar*/
+a.nav-link1.active:hover::before,
+a.nav-link1:hover::before {
+	font-weight: 800;
+	width: 15%!important;
+	left: 0px!important;
+}
+	/*	navbar*/
+	/*	banner*/
+	.banner-left {
+		height: 30vh;
+
+	}
+
+	.navbar-toggler {
+		background: #fff!important;
+	}
+
+	.extra-background {
+		padding: 0px;
+	}
+
+	/*	banner*/
+
+	/*content*/
+	.content {
+		position: unset!important;
+		padding: 50px 0px!important;
+	}
+
+	/*content*/
+
+}
+
+@media screen and (max-width: 480px) {
+
+	/*	header*/
+	.top-nav-number {
+		padding: 0px;
+	}
+
+	.header-social {
+		display: none;
+	}
+
+	/*	header*/
+
+	/*banner*/
+	.banner-left {
+		height: 40vh;
+
+	}
+
+	/*banner*/
+
+}
