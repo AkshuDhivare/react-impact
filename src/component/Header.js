@@ -13,7 +13,7 @@ function Header() {
               <a href="mailto:contact@example.com" className="d-flex">
                 <i className="bi bi-envelope"></i>
                 &nbsp;&nbsp;contact@example.com
-              </a>{" "}
+              </a>
               &nbsp;
               <a href="tel:+155895548855" className="d-flex top-nav-number">
                 <i className="bi bi-phone "></i>

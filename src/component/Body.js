@@ -1,65 +1,33 @@
 import React from "react";
 import "./Body.css";
+import Content_box from "./Content_box";
 
 function Body() {
+  const content_data = [
+    {
+      className: "bi bi-command text-white h1",
+      text: "Lorem, ipsum",
+    },
+    {
+      className: "bi bi-geo-alt text-white h1",
+      text: "Lorem, ipsum",
+    },
+    {
+      className: "bi bi-gem text-white h1",
+      text: "Lorem, ipsum",
+    },
+    {
+      className: "bi bi-easel text-white h1",
+      text: "Lorem, ipsum",
+    },
+  ];
   return (
     <>
       {/* content section  */}
       <section id="content">
         <div className="container">
           <div className="row content">
-            <div
-              className="col-lg-3 col-md-6 my-3"
-              data-aos="zoom-in"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-            >
-              <div className="content-box ">
-                <i className="bi bi-easel text-white h1"></i>
-                <br />
-                <br />
-                <h5>Lorem, ipsum.</h5>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 my-3"
-              data-aos="zoom-in"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-            >
-              <div className="content-box ">
-                <i className="bi bi-gem text-white h1"></i>
-                <br />
-                <br />
-                <h5>Lorem, ipsum.</h5>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 my-3"
-              data-aos="zoom-in"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-            >
-              <div className="content-box ">
-                <i className="bi bi-geo-alt text-white h1"></i>
-                <br />
-                <br />
-                <h5>Lorem, ipsum.</h5>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 my-3"
-              data-aos="zoom-in"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-            >
-              <div className="content-box ">
-                <i className="bi bi-command text-white h1"></i>
-                <br />
-                <br />
-                <h5>Lorem, ipsum.</h5>
-              </div>
-            </div>
+            <Content_box content_data={content_data} />
           </div>
         </div>
       </section>
