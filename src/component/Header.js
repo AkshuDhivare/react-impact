@@ -154,7 +154,7 @@ function Header() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quam harum quis dignissimos, aperiam facilis, laboriosam?
                   </p>
-                  <div className="">
+                  <div className="d-flex">
                     <a className="btn m-2 banner-btn" href="#content">
                       Get Started
                     </a>

@@ -102,7 +102,7 @@ a.nav-link1:hover::before {
 }
 
 .banner-transparent-btn {
-	padding: 10px 40px!important;
+	padding: 11px 40px!important;
 	border-radius: 50px!important;
 	color: #fff!important;
 }
@@ -116,3 +116,13 @@ a.nav-link1:hover::before {
 }
 
 /*banner css*/
+
+@media screen and (max-width: 480px) {
+	.banner-btn {
+		padding: 20px 24px!important;
+	}
+	
+	.banner-transparent-btn {
+		padding: 16px 24px!important;
+	}
+}
