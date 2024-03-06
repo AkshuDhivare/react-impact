@@ -24,6 +24,7 @@ p {
 }
 
 
+/* responsive css */
 @media screen and (max-width: 840px) {
 
   	/*	navbar*/
@@ -34,10 +35,10 @@ a.nav-link1:hover::before {
 	left: 0px!important;
 }
 	/*	navbar*/
-	
+
 	/*	banner*/
 	.banner-left {
-		height: 30vh;
+		height: 30vh!important;
 
 	}
 
@@ -76,10 +77,12 @@ a.nav-link1:hover::before {
 
 	/*banner*/
 	.banner-left {
-		height: 40vh;
+		height: 45vh!important;
 
 	}
 
 	/*banner*/
 
 }
+
+/* responsive css */
